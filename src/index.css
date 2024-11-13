@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-[#228B22] text-white font-semibold rounded-lg py-2 px-6 duration-200 shadow-[0px_10px_8px_-7px_#228B22];
+  }
+}
