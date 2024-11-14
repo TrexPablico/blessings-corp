@@ -9,6 +9,8 @@ import Services from "./components/Services";
 import Stores from "./components/Stores";
 import Footer from "./components/Footer";
 import Questions from "./components/Questions";
+import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,8 +21,10 @@ function App() {
         <Hero />
         <Services />
         <Banner />
+        <About />
         <Questions />
         <Stores />
+        <Contact />
         <Footer />
       </main>
     </>

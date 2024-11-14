@@ -38,7 +38,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <FiMapPin className="text-2xl" />
-                <p className="text-lg">___ Branches Nationwide</p>
+                <p className="text-lg">11 Branches in NCR</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.4)}

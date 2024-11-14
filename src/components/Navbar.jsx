@@ -18,13 +18,9 @@ const NavbarMenu = [
     title: "About Us",
     path: "/",
   },
+
   {
     id: 4,
-    title: "Branches",
-    path: "/",
-  },
-  {
-    id: 5,
     title: "Contact Us",
     path: "/",
   },

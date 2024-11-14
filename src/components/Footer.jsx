@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
           {/*first section*/}
-          <div className="space-y-4 max-w-[300px]">
+          <div className="space-y-4 max-w-[300px] ml-9">
             <img src={logo} alt="" className="w-[150px]" />
             <p className="text-dark2">
               Blessings is focused on offering photocopying, bookbinding and
@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
           </div>
           {/*second section*/}
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-2 gap-10 ml-9">
             <div className="space-y-4">
               <h1 className="text-2xl font-bold">Services</h1>
               <div className="text-dark2 ">
@@ -77,7 +77,7 @@ const Footer = () => {
             <img
               src={footer}
               alt=""
-              className="h-[200px] object-cover w-full"
+              className="h-[150px] lg:h-[190px] object-cover w-full"
             />
           </div>
         </div>
